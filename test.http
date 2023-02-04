@@ -1,0 +1,23 @@
+POST http://localhost:3000/item
+Content-Type: application/json
+
+{
+        "name": "chipsw",
+        "quantity": 2
+}
+
+###
+
+GET http://localhost:3000/items
+
+###
+
+PUT  http://localhost:3000/item/<id>/quantity/<quantity_numericvalue>/name/<name_value>
+
+###
+
+GET ( Get Items By ID ) http://localhost:3000/items/<id>
+
+###
+
+DELETE http://localhost:3000/items/<id>
